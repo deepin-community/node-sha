@@ -1,0 +1,28 @@
+Source: node-sha
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Jérémy Lal <kapouer@melix.org>
+Section: javascript
+Testsuite: autopkgtest-pkg-nodejs
+Priority: optional
+Build-Depends: debhelper-compat (= 13)
+ , dh-sequence-nodejs
+ , mocha <!nocheck>
+ , node-graceful-fs <!nocheck>
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-sha
+Vcs-Git: https://salsa.debian.org/js-team/node-sha.git
+Homepage: https://github.com/ForbesLindesay/sha
+Rules-Requires-Root: no
+
+Package: node-sha
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+ , node-graceful-fs
+ , nodejs
+Description: Check and get file or stream hashes - module for Node.js
+ node-sha exposes simple functions to check and get file or stream hashes.
+ The algorithm used defaults to sha1 and can be any of the algorithms
+ supported by Node.js builtin crypto module.
+ .
+ Node.js is an event-based server-side javascript engine.

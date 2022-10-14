@@ -1,0 +1,50 @@
+node-sha (3.0.0-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + node-sha: Add Multi-Arch: foreign.
+
+  [ Yadd ]
+  * Bump debhelper compatibility level to 13
+  * Modernize debian/watch
+  * Fix GitHub tags regex
+  * Use dh-sequence-nodejs
+  * Declare compliance with policy 4.6.0
+  * Drop versioned constraint on node-graceful-fs
+
+ -- Yadd <yadd@debian.org>  Wed, 15 Sep 2021 10:31:08 +0200
+
+node-sha (3.0.0-1) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.5.0
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+  * New upstream version 3.0.0
+  * Update copyright
+  * Drop useless patch
+  * Use pkg-js-tools auto test & install
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 09 Mar 2020 14:44:26 +0100
+
+node-sha (2.0.1-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version 2.0.1
+  * Use salsa.debian.org in Vcs-* fields
+  * Bump Standards-Version to 4.2.1 (no changes needed)
+  * Bump debhelper compatibility level to 11
+  * Change section to javascript, priority to optional
+  * Remove readable-stream dependency
+  * Enable tests and autopkgtest
+
+ -- Pirate Praveen <praveen@debian.org>  Sat, 15 Sep 2018 11:10:25 +0530
+
+node-sha (1.2.3-1) unstable; urgency=low
+
+  * Initial release (Closes: #720380)
+
+ -- Jérémy Lal <kapouer@melix.org>  Wed, 21 Aug 2013 15:06:28 +0200
