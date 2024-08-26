@@ -1,3 +1,11 @@
+node-sha (3.0.0-3) unstable; urgency=medium
+
+  * Team upload
+  * Fix filenamemangle
+  * Fix test for nodejs >= 16
+
+ -- Yadd <yadd@debian.org>  Wed, 04 May 2022 08:00:49 +0200
+
 node-sha (3.0.0-2) unstable; urgency=medium
 
   * Team upload
